@@ -17,6 +17,8 @@
                 "scripts/vagrant.sh",
                 "scripts/dep.sh",
                 "scripts/custom/os.sh",
+                "scripts/custom/security.sh",
+                "scripts/custom/ruby.sh",
                 "scripts/cleanup.sh",
                 "scripts/zerodisk.sh"
             ]
@@ -61,7 +63,7 @@
             "artifact_type": "vagrant.box",
             "metadata": {
                 "provider": "virtualbox",
-                "version": "0.0.6"
+                "version": "0.0.1"
             }
         }]
     ]
